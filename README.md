@@ -1,4 +1,4 @@
-Fancy jekyll powered single page site
+CS 6101 AY 18/19 Sem I course home page
 ======================
 
 Here're some examples:
