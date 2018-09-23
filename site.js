@@ -72,6 +72,13 @@ $.extend($.easing,
 
 $(document).ready(function (){
 
+$("a[data-toggle]").on("click", function(e) {
+  e.preventDefault();  // prevent navigating
+  var selector = $(this).data("toggle");  // get corresponding element
+  $(selector).toggle();
+});
+
+
     $('nav li a').navScroller();
 
     //section divider icon click gently scrolls to reveal the section
@@ -92,4 +99,6 @@ $(document).ready(function (){
 	});
 
 });
+
+
 
